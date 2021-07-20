@@ -37,9 +37,12 @@ void loop() {
     digitalWrite(led1,HIGH);
     digitalWrite(led2,HIGH);
     digitalWrite(led3,HIGH);
-    d1=15000;
+    d1=10000;
   }
   else if(d1!=0){
+    digitalWrite(led1,HIGH);
+    digitalWrite(led2,HIGH);
+    digitalWrite(led3,HIGH);
     d1--;
   }
   else{
@@ -52,9 +55,12 @@ void loop() {
     digitalWrite(led2,HIGH);
     digitalWrite(led3,HIGH);
     digitalWrite(led4,HIGH);
-    d2=15000;
+    d2=10000;
   }
   else if(d2!=0){
+    digitalWrite(led2,HIGH);
+    digitalWrite(led3,HIGH);
+    digitalWrite(led4,HIGH);
     d2--;
   }
   else{
@@ -67,9 +73,12 @@ void loop() {
     digitalWrite(led3,HIGH);
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH);
-    d3=15000;
+    d3=10000;
   }
   else if(d3!=0){
+    digitalWrite(led3,HIGH);
+    digitalWrite(led4,HIGH);
+    digitalWrite(led5,HIGH);
     d3--;
   }
   else{
@@ -82,9 +91,12 @@ void loop() {
     digitalWrite(led4,HIGH);
     digitalWrite(led5,HIGH);
     digitalWrite(led6,HIGH);
-    d4=15000;
+    d4=10000;
   }
   else if(d4!=0){
+    digitalWrite(led4,HIGH);
+    digitalWrite(led5,HIGH);
+    digitalWrite(led6,HIGH);
     d4--;
   }
   else{
